@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-express",
+  "version": "1.0.0",
+  "main": "hello_world.js",
+  "scripts": {
+    "start": "node src/hello_worls.js",
+    "dev": "nodemon src/hello_world.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
