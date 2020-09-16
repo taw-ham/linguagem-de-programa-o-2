@@ -8,7 +8,7 @@ app.post('/lowercase',(resq,resp) =>{
     const {dados} = resq.body;
     const result = {
         action,
-        dados,
+        input: dados,
         output: lwcase(dados),
     };
     console.log(result)

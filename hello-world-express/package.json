@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "hello_world.js",
   "scripts": {
-    "start": "node src/hello_worls.js",
+    "start": "node src/hello_world.js",
     "dev": "nodemon src/hello_world.js"
     
   },

@@ -13,8 +13,8 @@ app.get('/minimum',(req,res) =>{
     console.log(valores)
     const result = {
         action,
-        valores,
-        menor: menor(valores),
+        input: valores,
+        minimum: menor(valores),
     }
     console.log(result)
     res.json(result);
